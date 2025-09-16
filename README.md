@@ -1,17 +1,22 @@
-## Running React on Replit
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+This project is a full-stack translation system that supports both text and audio translation into regional languages. The application has a React (Vite) frontend for user interaction and a FastAPI backend to handle API requests.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## 🚀 Features
+* **Text Translation**: Enter text and translate it into regional languages using Google Translate.
+* **Audio Translation**: Speak into the app; speech is converted to text and translated into the target language.
+* **Automatic Language Detection**: Detects the source language automatically before translation.
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+## 🛠 Tech Stack & Libraries
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+### 🔹 Frontend (React + Vite)
+* **React** → Core UI library
+* **Vite** → Fast bundler & dev server with HMR
+* **TypeScript / JavaScript** → Type-safe development
+* **CSS** → Styling and responsive layouts
+* **Web Speech API (Browser)** → Captures speech and converts it into text (for audio input)
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+### 🔹 Backend (FastAPI + Python)
+* **FastAPI** → Framework for creating REST APIs
+* **googletrans==4.0.0-rc1** → Free Python library for Google Translate integration
+* **Uvicorn** → ASGI server to run the backend
 
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
