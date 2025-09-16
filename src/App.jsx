@@ -51,7 +51,7 @@ function App() {
 
   const fetchLanguages = async () => {
     try {
-      const response = await fetch('${API_BASE_URL}/api/languages')
+      const response = await fetch('${API_BASE_URL}/languages')
       const data = await response.json()
       setLanguages(data)
     } catch (error) {
@@ -174,7 +174,7 @@ function App() {
     
     setIsTranslating(true)
     try {
-      const response = await fetch('${API_BASE_URL}/api/translate', {
+      const response = await fetch('${API_BASE_URL}/translate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
