@@ -20,3 +20,4 @@ This project is a full-stack translation system that supports both text and audi
 * **googletrans==4.0.0-rc1** → Free Python library for Google Translate integration
 * **Uvicorn** → ASGI server to run the backend
 
+**check this out here**- https://multimodal-translation-system.vercel.app
