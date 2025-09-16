@@ -11,7 +11,7 @@ This project is a full-stack translation system that supports both text and audi
 ### 🔹 Frontend (React + Vite)
 * **React** → Core UI library
 * **Vite** → Fast bundler & dev server with HMR
-* **TypeScript / JavaScript** → Type-safe development
+* **JavaScript** → Type-safe development
 * **CSS** → Styling and responsive layouts
 * **Web Speech API (Browser)** → Captures speech and converts it into text (for audio input)
 
